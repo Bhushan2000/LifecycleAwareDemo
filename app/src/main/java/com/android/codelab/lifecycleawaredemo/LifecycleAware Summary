@@ -1,0 +1,11 @@
+
+        Lifecycle-aware Components Summary:
+    1.	Responds to the change in the lifecycle status of other UI components(LifecycleOwner)
+    2.	Lifecycle class holds the information about the LifecycleOwner(i.e., Activity)
+    3.	Lifecycle object uses enumeration(the action of mentioning a number of things one by one) to track the status:
+        •	Event
+        •	State
+    4.	LifecycleOwner provides lifecycle status to the Lifecycle-aware components.
+    5.	LifecycleObserver register the lifecycle status to respond and perform actions.
+
+
